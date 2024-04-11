@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F3E5D8;
+    
+}
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: young-serirf;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+img{
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 450px;
+    height: auto;
+    border-radius: 5px;
+}
+.card{
+
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+    padding: 1%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div1{
+    display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+}
+ .div1 h3{
+    font-family: young-serirf;
+    margin-left: 30px;
+}
+p{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: black;
+    font-family: outfit;
+}
+.div2 h3{
+    font-family: outfit;
+    font-size: 15px;
+    color: brown;
+}
+.div2{
+    background-color:#F3E5D8;
+    margin-left: 40px;
+    padding-right: 180px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.div2 p li{
+    font-family: outfit;
+    
+}
+.div3 h3{
+    font-family: young-serif;
+    font-size: 30px;
+    color: brown;
+}
+.div3{
+    margin-left: 25px;
+    padding-right: 09px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.div3 li{
+    font-family: outfit;
+    font-size: 17px;
+    padding-left: 18px;
+    
+}
+.div3 ul{
+    padding-left: 20px;
+}
+.div4 h3{
+    font-family: young-serif;
+    font-size: 30px;
+    color: brown;
+}
+.div4{
+    margin-left: 25px;
+    padding-right: 09px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.div5 h3{
+    font-family: young-serif;
+    font-size: 30px;
+    color: brown;
+}
+.div5{
+    margin-left: 25px;
+    padding-right: 09px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 7px;
+}
+.table1{
+    float: left;
+    width: 50%;
+}
+.table2{
+    float: right;
+    width: 50%;
+}
+table{
+    width: 80%;
+
+}
+tr{
+    display: flex;
+    justify-content: space-between;
+}
+.pp{
+    color: brown;
+    font-weight: bolder;
+}
+td{
+    font-family: outfit;
+}
+.attribution{
+   margin-left: 50px;
+}
